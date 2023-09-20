@@ -41,6 +41,8 @@ console.log(reverseNum_Approach_1(100))
  * remainder = 15 % 10 = 5        and n = 15 / 10 = 1       sum = 3 * 10 + 5 = 35
  * remainder = 1 % 10 = 1         and n = 5 / 10 = 0.2       sum = 35 * 10 + 1 = 351
  * 
+ * here the @timeComplexity :: O(log (n))
+ * here the @spaceComplexity :: O(1) 
 */
 
 function reverseNum_Approach_2(n) {
