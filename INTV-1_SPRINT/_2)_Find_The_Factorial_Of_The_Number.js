@@ -12,7 +12,8 @@
  * 
  * (ii) We can itrate over the for Loop and multiple each of number
  * 
- * So, here the @timeComplexity is O(n) and the @spaceComplexity is O(1)
+ * Here the @timeComplexity is O(n) 
+ * Here the @spaceComplexity is O(1)
 */
 
 
@@ -31,7 +32,8 @@ function factorialBasic_Approach_1(n){
  * (i) We can use recursive function for the approach -2
  *          ** Recursive function is a function which can call that function itself.
  * 
- * So, here the @timeComplexity is O(n) and the @spaceComplexity is O(n) 
+ *  Here the @timeComplexity is O(n)  
+ *  Here the @spaceComplexity is O(n) 
  *          ** Here we do not use extra space but on Recursive function
  *              the data store in callStack, Create a memory on CallStack
 */

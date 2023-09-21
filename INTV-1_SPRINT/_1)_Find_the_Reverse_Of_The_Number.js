@@ -14,7 +14,7 @@
  * (iii) convert string to number
  *          "51" -> 51      || Time Complexity is O(K)
  * 
- * So, the ultimate Time Complexity is   = O(K)+O(K)+O(K)
+ * So, the ultimate @TimeComplexity is   = O(K)+O(K)+O(K)
  *                                      =O(3K) = O(K)   [Where K is the Number of Input Digit]
 */
 
