@@ -4,14 +4,20 @@
 */
 
 
-function reverseArray(n,arr) {
-    let reversedArr = new Array;
+function reverseArray(n, arr) {
+    let i = 0;
+    let j = n-1;
+    
 
-    for(let i=n-1; i>=0; i--){
-        reversedArr.push(arr[i])
+    while (i <j) {
+        var temp = arr[i] // temp =5
+        arr[i]= arr[j] // 
+        arr[j]= temp
+        i++;
+        j--
     }
-    return reversedArr
-
+    return arr
 }
 
-console.log(reverseArray(5,[5,12,9,1,8]))
+
+console.log(reverseArray(5, [5, 12, 9, 1, 8]))
