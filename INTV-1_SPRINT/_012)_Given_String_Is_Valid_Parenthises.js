@@ -20,5 +20,3 @@ isAlphaNumeric("A")
 isAlphaNumeric("Z")
 isAlphaNumeric("0")
 isAlphaNumeric("9")
-
-
