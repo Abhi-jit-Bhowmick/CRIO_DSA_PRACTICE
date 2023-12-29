@@ -32,5 +32,18 @@ function marge(left, right) {
 }
 
 
+function mergeSort(n, nums) {
+    if (n <= 1) {
+        return nums
+    };
+
+    const mid = Math.floor(n / 2);
+
+    const left = mergeSort(mid, nums.slice(0, mid));
+    const right = mergeSort(n - mid, nums.slice(mid, n))
+
+    return marge(left, right)
+}
+
 const res = marge([2, 4, 12, 119], [10, 14, 18, 34]);
 console.log(res)
